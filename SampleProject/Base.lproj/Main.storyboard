@@ -142,7 +142,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.76498953352385102" green="0.98894842072133093" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="gLl-xt-PvD" firstAttribute="centerX" secondItem="uz4-Gz-Llv" secondAttribute="centerX" id="1sx-DV-Doj"/>
                             <constraint firstItem="1o8-4n-c3Y" firstAttribute="top" secondItem="dSk-Yt-0WD" secondAttribute="bottom" constant="3" id="2aP-Fo-uh5"/>
@@ -186,9 +186,6 @@
         <image name="close" width="50" height="50"/>
         <image name="tick" width="48" height="48"/>
         <image name="triangle.fill" catalog="system" width="128" height="112"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
