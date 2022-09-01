@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVA-YO-6Up">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVA-YO-6Up">
                                 <rect key="frame" x="173.5" y="45" width="67" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="0Sa-60-f8I"/>
@@ -26,7 +26,7 @@
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3O-IB-n28">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3O-IB-n28">
                                 <rect key="frame" x="20" y="49" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="Lec-Tw-bcA"/>
@@ -66,16 +66,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="zkk-Fb-Bou"/>
                                 </connections>
                             </searchBar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" backIndicatorImage="close" translatesAutoresizingMaskIntoConstraints="NO" id="Z3f-1w-4gh">
-                                <rect key="frame" x="0.0" y="34" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <color key="textColor" systemColor="systemYellowColor"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="SHARE" id="GE1-ET-gPB"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-Yt-0WD">
                                 <rect key="frame" x="2" y="178" width="202" height="31"/>
                                 <constraints>
